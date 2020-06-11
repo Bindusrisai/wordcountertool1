@@ -1,0 +1,75 @@
+body {
+	background-color:grey;
+	color: white;
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	margin-top: 30pt;
+	margin-bottom: 20pt;
+	width: 550pt;
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+}
+
+.comment {
+	text-align: center;
+}
+
+
+#textString {
+	width: 100%;
+}
+
+#summary {
+	display: block;
+	float: left;
+	margin-bottom: 20pt;
+}
+
+#summary h1 {
+	text-align: center;
+}
+
+#chooseButton{
+	float: right;
+}
+
+.row {
+	clear: both;
+	display: block;
+	color: blue;
+}
+
+.wordCell {
+	min-width: 60pt;
+	padding: 3pt;
+	float: left;
+}
+
+.countCell {
+	width: 60pt;
+	padding: 3pt;
+	float: left;
+}
+
+.headerCell {
+	font-weight: bold;
+}
+
+.grayCell {
+	background-color: #d3d3d3;
+}
+
+.whiteCell {
+	background-color: white;
+}
+
+#selectContainer{
+	float: right;
+	margin-bottom: 20pt;
+}
